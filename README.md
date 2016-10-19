@@ -46,11 +46,11 @@ web01的目录结构如下
 
 [id4]: ./images/iuap.png "指令集"    
 
-执行打包指令 
+执行打包指令，会在项目中新建一个 build（名字可配置） 文件夹，文件会装在其中
 
     uba build
 ![alt text][id5]
 
 [id5]: ./images/uba_build.png "指令集"   
 
-
+* [uba-template 配置](uba-template.md)
