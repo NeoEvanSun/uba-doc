@@ -1,9 +1,10 @@
 #前端集成工具uba文档
 
 ##uba介绍:
-uba is a front-end develop tool which consist of initialize,local service,mock server,deploy. Just 5 command then the development can be done. lite and simple.
 
-##GET STARTED
+uba是一个集合并、压缩、模板生成、打包及发布为一体的前端application开发工具，指令简单易用，生成项目结构明朗清晰，同时内部集成强大的tinper前端组件库，可快速搭建起一个前端项目。
+
+##使用姿势
 全局安装uba
 
     npm install uba -g
@@ -31,6 +32,25 @@ uba init 为 uba 的指令之一,负责初始化web工程,iuap 为 uba-template 
 
     cd web01
     npm install
+web01的目录结构如下
 
+![alt text][id3]
+
+[id3]: ./images/file_tree.png "指令集"
+启动开发模式
+
+    uba server
+浏览器访问 localhost:3000 后可以看到生成的模板页面
+
+![alt text][id4]
+
+[id4]: ./images/iuap.png "指令集"    
+
+执行打包指令 
+
+    uba build
+![alt text][id5]
+
+[id5]: ./images/uba_build.png "指令集"   
 
 
